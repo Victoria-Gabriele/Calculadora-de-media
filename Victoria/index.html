@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota</title>
+    <link rel="stylessheet" href="style.css">
+</head>
+<body>
+     <div id="main">
+      <h1>NOTA ALUNOS</h1>
+      <p> Digite a nota do primeiro bimestre:
+        <input type="number" max="10" id="nota1">
+      </p>
+      <p> Digite a nota do segundo bimestre:
+        <input type="number" max="10" id="nota2">
+      </p>
+      <p> Digite a nota do terceiro bimestre:
+        <input type="number" max="10" id="nota3">
+      </p>
+      <button id="calcular" onclick="calcular()">calcular</button>
+    
+    </div> 
+
+     <p id ="test">A sua média é: <span id="media"></span> </p>
+     <p id="status"></p>
+
+    <script src="back.js"></script>
+</body>
+</html>
